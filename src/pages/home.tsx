@@ -1,10 +1,12 @@
-import React, { FunctionComponent, useState, useEffect } from "react";
-import { KursToday } from "./shared/kurs-today";
+import React from "react";
+import { ListMoneyExchange } from "./shared/list-money-exchange";
+import { Chart } from "./chart";
 
 const Home = () => {
   return (
-    <div>
-      <KursToday />
+    <div className="Wrapper">
+      <ListMoneyExchange />
+      <Chart />
     </div>
   );
 };
